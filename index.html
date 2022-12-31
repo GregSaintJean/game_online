@@ -7,6 +7,14 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
         <style> @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); </style>
         <link href="css/index.css" rel="stylesheet">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XC8HJ9WZK0"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XC8HJ9WZK0');
+        </script>
         <title>R0g3rW4bb17</title>
     </head>
     <body>
@@ -39,7 +47,8 @@
                             var options = {
                                 width: 780,
                                 height: 475,
-                                channel: "r0g3rw4bb17"
+                                channel: "r0g3rw4bb17",
+                                parent: ["r0g3rw4bb17.xyz"]
                             }
                             var player = new Twitch.Player("livestream-embed", options);
                             player.setVolume(0.5);
