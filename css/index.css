@@ -1,9 +1,7 @@
 body {
     width: 100%;
     margin: 0;
-    background-image: url(../img/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgba(14, 0, 98, 1);
 }
 
 #avatar{
