@@ -1,6 +1,9 @@
 body {
     width: 100%;
     margin: 0;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #avatar{
@@ -15,7 +18,38 @@ body {
 }
 
 .social-btn{
-    padding: 10px;
+    padding: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#twitter-embed{
+    width: 50%;
+    margin: auto;
+}
+
+#youtube_logo{
+    width: 95px;
+    height: 25px;
+}
+
+#twitter_logo{
+    width: 25px;
+    height: 25px;
+}
+
+#tumblr_logo{
+    width: 18px;
+    height: 25px;
+}
+
+.s_label{
+    font-size: 1.1em;
+    margin-left: 5px;
+    color: #fff;
+}
+
+#brand_name{
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
 }
