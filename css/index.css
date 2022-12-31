@@ -21,6 +21,7 @@ body {
     padding: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 125px;
 }
 
 #twitter-embed{
@@ -40,6 +41,16 @@ body {
 
 #tumblr_logo{
     width: 18px;
+    height: 25px;
+}
+
+#tiktok_logo{
+    width: 25px;
+    height: 25px;
+}
+
+#twitch_logo{
+    width: 25px;
     height: 25px;
 }
 
