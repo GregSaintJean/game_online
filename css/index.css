@@ -19,7 +19,7 @@ body {
     padding: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 125px;
+    width: 135px;
 }
 
 #twitter-embed{
@@ -48,6 +48,11 @@ body {
 }
 
 #twitch_logo{
+    width: 25px;
+    height: 25px;
+}
+
+#mastodon_logo{
     width: 25px;
     height: 25px;
 }
