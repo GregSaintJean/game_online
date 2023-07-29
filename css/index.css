@@ -71,6 +71,11 @@ body {
     height: 25px;
 }
 
+#livespace_logo{
+    width: 25px;
+    height: 25px;
+}
+
 .s_label{
     font-size: 1.1em;
     margin-left: 5px;
